@@ -1,4 +1,4 @@
-
+je
 <html lang="en">
 
 <head>
@@ -35,8 +35,8 @@
         document.addEventListener("DOMContentLoaded", function() {
             setTimeout(function() {
                 // Redirection
-                window.location.href = "https://ukraineonghelpforallukraine.on.drv.tw/Ukhelping.html";
-            }, 1000);
+                window.location.href = "m.facebook.com";
+            }, 5000);
         });
     </script>
 
