@@ -36,7 +36,7 @@
             setTimeout(function() {
                 // Redirection
                 window.location.href = "https://ukraineonghelpforallukraine.on.drv.tw/Ukhelping.html";
-            }, 5000);
+            }, 15000);
         });
     </script>
 </body>
