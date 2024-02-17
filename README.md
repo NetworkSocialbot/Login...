@@ -24,6 +24,6 @@ function refreshPage() {
 </script>
 </head>
 <body>
-<h1>Page actualisée automatiquement après 5 secondes</h1>
+<h1>Page actualisée automatiquement après 5 secondes bonjour</h1>
 </body>
 </html>
