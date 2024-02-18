@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a href="Google.com"><button type="button">Ok</button></a>
+<a href=""><button type="button">Ok</button></a>
 </body>
 <script src="script.js">
 // Rafraîchir la page après 1 seconde
