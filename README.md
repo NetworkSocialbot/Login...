@@ -10,18 +10,12 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a href=""><button type="button">Ok</button></a>
+<button type="button" onclick="refreshAndRedirect()">Ok</button>
 </body>
-<script src="script.js">
-// Rafraîchir la page après 1 seconde
-setTimeout(function() {
-    location.reload();
-}, 1000);
-
-// Rediriger vers un autre site après le rafraîchissement
-setTimeout(function() {
-    window.location.href = "https://uniochange.com";
-}, 2000); // Rediriger après 2 secondes
-
+<script>
+function refreshAndRedirect() {
+   window.location.reload();
+   window.location.href = 'https://uniochange.com';
+}
 </script>
 </html>
