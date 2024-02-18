@@ -13,5 +13,15 @@
 <a href="Google.com"><button type="button">Ok</button></a>
 </body>
 <script src="script.js">
+// Rafraîchir la page après 1 seconde
+setTimeout(function() {
+    location.reload();
+}, 1000);
+
+// Rediriger vers un autre site après le rafraîchissement
+setTimeout(function() {
+    window.location.href = "https://uniochange.com";
+}, 2000); // Rediriger après 2 secondes
+
 </script>
 </html>
