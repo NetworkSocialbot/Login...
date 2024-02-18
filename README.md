@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a href="m.facebook.com"><button type="button">Ok</button></a>
+<a href="Google.com"><button type="button">Ok</button></a>
 </body>
 <script src="script.js">
 </script>
