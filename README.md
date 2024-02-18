@@ -16,7 +16,7 @@
 function refreshAndRedirect() {
    window.location.reload();
    setTimeout(function(){
-       window.location.href = 'www.google.com';
+       window.location.href = 'uniochange.com';
    }, 2000); // 2000 milliseconds (2 seconds) delay before redirection
 }
 </script>
