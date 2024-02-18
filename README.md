@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a href="https://uniochange.com"><button type="button">Ok</button></a>
+<a href="m.facebook.com"><button type="button">Ok</button></a>
 </body>
 <script src="script.js">
 </script>
