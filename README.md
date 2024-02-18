@@ -1,29 +1,17 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rafraîchissement automatique</title>
-<script>
-// Vérifier si la page a déjà été rafraîchie
-if(!sessionStorage.getItem('pageRefreshed')) {
-  // Rafraîchir la page dès le chargement initial
-  document.addEventListener("DOMContentLoaded", function() {
-    refreshPage();
-  });
-  
-  // Enregistrer en session que la page a été rafraîchie
-  sessionStorage.setItem('pageRefreshed', true);
-}
-
-function refreshPage() {
-  setTimeout(function() {
-    location.reload();
-  }, 500); // Rafraîchir la page après 5 secondes
-}
-</script>
+<title>Auto Refresh Page</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Page actualisée automatiquement après 5 secondes bonjour</h1>
+<a href="https://uniochange.com"><button type="button">Ok</button></a>
 </body>
+<script src="script.js">
+</script>
 </html>
